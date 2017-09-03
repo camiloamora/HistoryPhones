@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F844C9271F47CC860088343C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C9261F47CC860088343C /* AppDelegate.swift */; };
-		F844C9291F47CC860088343C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C9281F47CC860088343C /* ViewController.swift */; };
 		F844C92C1F47CC860088343C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F844C92A1F47CC860088343C /* Main.storyboard */; };
 		F844C92E1F47CC860088343C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F844C92D1F47CC860088343C /* Assets.xcassets */; };
 		F844C9311F47CC860088343C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F844C92F1F47CC860088343C /* LaunchScreen.storyboard */; };
+		F844C9391F47D2B50088343C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C9381F47D2B50088343C /* ProductViewController.swift */; };
+		F844C93D1F47DFA30088343C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C93C1F47DFA30088343C /* ContactViewController.swift */; };
+		F844C93F1F47F2D40088343C /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C93E1F47F2D40088343C /* ProductsTableViewController.swift */; };
+		F844C9411F487EC90088343C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844C9401F487EC90088343C /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F844C9231F47CC860088343C /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F844C9261F47CC860088343C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F844C9281F47CC860088343C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F844C92B1F47CC860088343C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F844C92D1F47CC860088343C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F844C9301F47CC860088343C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F844C9321F47CC860088343C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F844C9381F47D2B50088343C /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		F844C93C1F47DFA30088343C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F844C93E1F47F2D40088343C /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		F844C9401F487EC90088343C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				F844C9261F47CC860088343C /* AppDelegate.swift */,
-				F844C9281F47CC860088343C /* ViewController.swift */,
 				F844C92A1F47CC860088343C /* Main.storyboard */,
 				F844C92D1F47CC860088343C /* Assets.xcassets */,
 				F844C92F1F47CC860088343C /* LaunchScreen.storyboard */,
 				F844C9321F47CC860088343C /* Info.plist */,
+				F844C9381F47D2B50088343C /* ProductViewController.swift */,
+				F844C93C1F47DFA30088343C /* ContactViewController.swift */,
+				F844C93E1F47F2D40088343C /* ProductsTableViewController.swift */,
+				F844C9401F487EC90088343C /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F844C9291F47CC860088343C /* ViewController.swift in Sources */,
+				F844C9391F47D2B50088343C /* ProductViewController.swift in Sources */,
+				F844C93F1F47F2D40088343C /* ProductsTableViewController.swift in Sources */,
+				F844C9411F487EC90088343C /* Product.swift in Sources */,
 				F844C9271F47CC860088343C /* AppDelegate.swift in Sources */,
+				F844C93D1F47DFA30088343C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
